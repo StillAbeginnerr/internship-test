@@ -1,0 +1,21 @@
+.options-wrapper{
+    display: flex;
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.btn-decorate{
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 75px;
+    width: 105px;
+    background-color: #003F5C;
+}
+
+.tab-item{
+    margin-left: 25px;
+}

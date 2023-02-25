@@ -1,0 +1,251 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.container{
+    display: flex;
+}
+
+.card-2{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    border: none;
+    width: 328px;
+    height: 765px;
+    margin-bottom: 30px;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.sub-head-3{
+    margin-top: 10px;
+    display: flex;
+    font-size: 12px;
+    background-color: #D5F1FE;
+    height: 25px;
+    font-family: 'lato';
+    font-weight: bold;
+}
+
+.activities{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.games{
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.buy-course-btn{
+    border-radius: 25px;
+    background: rgb(254,0,0);
+    background: linear-gradient(90deg, rgba(254,0,0,1) 0%, rgba(254,18,0,1) 21%, rgba(255,205,0,1) 100%);
+    border: none;
+    color: white;
+    height: 40px;
+    font-weight: bold;
+    width: 160px;
+    position: relative;
+    left: 25%;
+    top: 15px;
+}
+
+.certificate{
+    margin-top: 2px;
+    margin-left: 20px;
+
+}
+
+.line-pos{
+    position: relative;
+    bottom: 27px;
+    margin-left: 27.5px;
+    margin-right: 0px;
+}
+
+.card-3:hover{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.card-3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    border: none;
+    width: 328px;
+    height: 765px;
+    margin-bottom: 30px;
+}
+.card:hover{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.card-2:hover{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+.link-to-fullplan{
+    position: relative;
+    left: 06%;
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+.discount{
+    text-decoration:line-through;
+ position: relative;
+ left: 7.5%;
+    color: #999999;
+}
+
+.sub-head-1{
+    display: flex;
+}
+.total-price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 120px;
+    font-size: 20px;
+    font-family: 'lato';
+    font-weight: bold;
+    margin-left: 25px;
+}
+.review-txt{
+    display: flex;
+    position: relative;
+    bottom: 41px;
+    left: 25px;
+    
+}
+.per_off{
+    position: absolute;
+    left: 80%;
+    color: black;
+    font-weight: bold;
+    top: -10px;
+}
+.discount_per{
+position: relative;
+left: 71.22%;
+}
+.price-per-class{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.per-class{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    display: flex;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    top: 10%;
+    left: 05%;
+}
+
+.note{
+    font-size: small;
+    margin-left: 20px;
+    color: orange;
+    line-height: 3;
+}
+
+hr{
+    width: 300px;
+    color: #E0E0E0;
+    opacity: 50%;
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 30%;
+    top: 15%;
+    border: none;
+    width: 328px;
+    height: 765px;
+    margin-bottom: 30px;
+}
+.head-1{
+    width: 328px;
+    height: 140px;
+    background-color: #D5F1FE;
+    ;
+margin-bottom: 10px;
+}
+
+.Heading{
+    position: relative;
+    left: 06%;
+    font-weight: 700;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: 5%;
+color: #006292;
+    left: 5%;
+}
+.pitch-description{
+font-family: 'lato';
+font-weight: 400;
+font-size: 10;
+line-height: 1.5;
+padding: 10px 10px;
+}
+
+.curriculum-outcome{
+    padding: 10px 10px;
+    color: #666666;
+
+    font-family: 'lato';
+}
+
+.ribbon{
+    position: relative;
+    bottom: 90px;
+}
+.sub-head{
+    position: relative;
+    bottom: 80px;
+    line-height: 2;
+}
+.img-ribbon{
+    position: relative;
+    top: 30px;
+    z-index: 0;
+}
+
+.ribbon-txt{
+    position: relative;
+    right: -15px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    bottom: 11.5px;
+}
+.head-2{
+
+}
